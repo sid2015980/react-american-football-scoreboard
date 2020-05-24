@@ -35,7 +35,9 @@ function App() {
         </div>
         
         {/* RESET GAME CLICK EVENT ADDED, RESETS BOTH SCORES! */}
+        <div className = "buttons">
         <button className="reset_scores" onClick ={() => `${setHomeCount(0)} ${setAwayCount(0)}`}>New Game!</button>
+        </div>
         {/* **************************************************** */}
 
         <div className="awayButtons">
